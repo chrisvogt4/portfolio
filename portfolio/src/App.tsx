@@ -9,23 +9,25 @@ import todo from "./todo.png"
 
 function App() {
 
+  
+
   return (
     <body>
     <header>
       <div className='class'>
-      <a className='logo' id='logo'>Chris Vogt</a>
+      <a href="https://github.com/chrisvogt4" className='logo' id='logo'>Chris Vogt</a>
       <a className='logo' id='fed'>Software Developer</a>
       </div>
       <nav id="navbar">
-          <a href="#bio-section" target="_blank" className="nav-link" id="profile-link">about</a>
-          <a href="#project-preview" className="nav-link" id="projects">portfolio</a>
-          <a href="#contact-link" className="nav-link" id="contact">contact</a>
+          <a href="#bio-section" target="_blank" className="nav-link">about</a>
+          <a href="#portfolio" className="nav-link">portfolio</a>
+          <a href="#contact" className="nav-link">contact</a>
           <a href='https://www.linkedin.com/in/chris-vogt-66a3b51b8/'><i className='icon-link'><FaLinkedin /></i></a>
           <a href='https://github.com/chrisvogt4'><i className='icon-link'><FaGithub /></i></a>
           <a><i className='icon-link'><FaInstagram /></i></a>
       </nav>
       </header>
-      <section className='bio-section'>
+      <section id="bio-section" className='bio-section'>
         <h1>Creative</h1>
         <h2>Front-End</h2>
         <h3>Developer</h3>
@@ -53,8 +55,11 @@ function App() {
           </a>
           </div>
         </section>
-        <section className='contact'>
-          <button>Contact Me</button>
+        <section id="contact" className='contact'>
+        <fieldset>
+        <h1>Contact.</h1>
+        <p>Get in touch with me or directly email me at <span>cjvogt24@gmail.com</span></p>
+          </fieldset>
         </section>
         <footer>
           <p>Copyright © 2025 Chris Vogt. All rights reserved.</p>

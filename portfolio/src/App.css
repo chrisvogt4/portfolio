@@ -139,8 +139,6 @@ header {
   max-width: 1000px;
 }
 
-
-
 h1 {
   font-size: 40px;
 }
@@ -149,7 +147,7 @@ h1 {
   background-color: rgb(29, 29, 29);
   color: black;
   border-top: 2px solid rgb(182, 181, 181);
-  min-height: 50vh;
+  min-height: 90vh;
   padding-top: 10px;
 }
 
@@ -209,45 +207,47 @@ img {
 }
 
 footer {
-  border-top: 2px solid white;
   text-align: center;
   height: 8vh;
-  background-color: rgb(29, 29, 29);
+  background-color: black
 }
 
 footer p {
   padding-top: 40px;
   color: white;
+  margin-bottom: 100px;
 }
 
 .contact {
-  height: 20vh;
-  border-bottom: 2px solid white;
+  height: 60vh;
   border-top: 2px solid white;
   background-color: black;
 }
 
-button {
-  margin: 0 auto; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+fieldset {
+  border: black;
+  padding: 2rem 0;
+}
+
+
+.contact h1, .contact p {
+  margin: 0 auto;
   text-align: center;
-  margin-top: 6vh;
-  height: 100px;
-  width: 300px;
-  border-radius: 30px;
-  font-size: 30px;
+  color: white;
+  padding: 10px;
 }
 
-
-
-@media only screen and (width < 700px) {
-  h1 {
-    font-size: 50px;
-  }
-  #projects .project-tile {
-    height: 600px;
-    width: 100%;
-  }
+.contact h1 {
+  font-size: 70px;
+  padding-top: 40px;
 }
+
+.contact p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+span {
+  font-weight: 1000;
+}
+
